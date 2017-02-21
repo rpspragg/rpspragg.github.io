@@ -1,11 +1,3 @@
-body{
-	background: black;
-/*	background-image: url(../images/engage-background.JPG);
-*/
-	margin: 0;
-
-	}
-
 div.content_wrap{
 	width: 1000px;
 	margin: auto;
@@ -15,10 +7,13 @@ div.content_wrap{
 /* LANDING PAGE*/
 
 
-body#landing{
-	background: url('../images/engage-background.JPG') no-repeat 50% 50% fixed;
+html#landing{
+	background: url('../images/engage-background.JPG') no-repeat center center fixed;
 	background-size: cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-webkit-background-size:cover;
 }
+
+
+
