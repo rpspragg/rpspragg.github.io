@@ -1,7 +1,10 @@
 body{
 	background: black;
 /*	background-image: url(../images/engage-background.JPG);
-*/}
+*/
+	margin: 0;
+
+	}
 
 div.content_wrap{
 	width: 1000px;
