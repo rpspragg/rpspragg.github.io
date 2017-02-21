@@ -1,0 +1,194 @@
+/*Whole Document*/
+
+html{
+	font-family: sans-serif;
+	background: #746c66;
+	text-align: justify;
+/*	width: 1500px;
+*/	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.separator{
+	clear: both;
+	height: 30px;
+}
+
+.page_wrap{
+	width: 1200px;
+	margin: auto;
+}
+
+.content_wrap{
+	background: white;
+	padding:1em 2em;
+}
+
+.right{
+	float: right;
+	width: 70%
+}
+
+.left{
+	float:left;
+	width: 30%;
+}
+
+.main{
+	clear: both;
+}
+
+.content_wrap h1{
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#B1810B;
+	border-bottom: dotted;
+}
+
+.content_wrap h2{
+	margin: 0;
+}
+
+
+ul{
+	margin-bottom: 2em;
+}
+
+li{
+	margin-bottom: 0.5em;
+}
+
+ol{
+	margin-bottom: 2em;
+}
+
+a{
+	color: #B1810B;
+}
+p:last-of-type{
+	margin-bottom: 2em;
+}
+
+/*Nav Bar*/
+
+header{
+	margin-top: 2em;
+}
+
+header img{
+	float: left;
+}
+
+nav{
+	background: white;
+}
+
+nav ul{
+	float: right;
+	padding: 0;
+}
+
+nav li{
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav a{
+	padding: 0.5em;
+	color: white;
+	text-decoration: none;
+}
+
+nav .last{
+
+	padding-right: 0;
+
+
+}
+
+
+nav a:hover{
+	text-decoration: underline;
+
+}
+
+
+
+/* News and Events*/
+.news_item{
+	clear: both;
+	margin-top: 1em;
+	overflow: hidden;
+	margin-bottom: 3em;
+	
+}
+
+.news_item  img{
+	margin-top: 1.5em;
+	float:left;
+	width: 20%;
+}
+.news_text{
+	float: right;
+	width: 75%;
+	
+}
+
+.date{
+	font-style: italic;
+	margin: 0.5em 0 1em;
+}
+
+.more_link{
+	text-align: right;
+}
+
+
+/*Contact*/
+.contact{
+	margin-bottom: 5em;
+}
+
+.contact li{
+	list-style-type: none;
+	margin-bottom: 0.5em;
+}
+
+.contact ul{
+	margin: 0 0 3em;
+}
+
+#soc_media{
+	list-style-type: none;
+	padding-left: 1em;
+}
+
+
+/* FOOTER */
+
+footer{
+	clear:both;
+}
+
+footer ul{
+	padding-left: 0;
+	text-align: center;
+}
+footer li{
+	display:inline;
+	font-size: 0.85em;
+	color:black;
+}
+
+footer li:after{
+	content: "\\";
+	padding: 0 1em;	
+}
+footer li:last-child:after{
+	padding-right: 0;
+	content:none;
+}
