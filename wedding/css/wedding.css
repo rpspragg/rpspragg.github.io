@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Pacifico');
 
 div.content_wrap{
-	width: 1000px;
+	width: 1200px;
 	margin: auto;
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: serif;
 }
+
+/* Title */
 
 
 
@@ -11,6 +14,7 @@ div.content_wrap{
 /* LANDING PAGE*/
 html#landing{
 	background: url('../images/engage-background.JPG');
+	background-repeat:no-repeat;
 	position: absolute;
 	top: 0;
 	bottom: 0;
