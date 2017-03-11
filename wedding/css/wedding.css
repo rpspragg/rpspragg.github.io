@@ -16,8 +16,7 @@ div.content_wrap{
 div.nav{
 	width: 250px;
 	float: right;
-/*	background-color: pink;
-*/	text-align: right;
+	text-align: right;
 }
 
 h1{
@@ -43,11 +42,11 @@ h2{
 .nav ul{
 	list-style: none;
 	text-align: right;
-	margin-top: 2em;
 }
 
 .nav li {
   font-family: 'Just Another Hand', sans-serif;
+  font-weight: 100;
   font-size: 2.5em;
   height: 1.25em;
 }
@@ -69,8 +68,10 @@ h2{
 /* Content Area */
 div.content{
 	width: 650px;
-/*	background-color: gold;
-*/}
+	float: left;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 100;
+}
 
 
 /* LANDING PAGE*/
@@ -95,5 +96,3 @@ html#landing{
 html{
 	background-color: #a1cef4;
 }
-/* NAV BAR AND TITLE */
-
