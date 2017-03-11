@@ -10,11 +10,10 @@
 div.content_wrap{
 	width: 900px;
 	margin: auto;
-	font-family: sans-serif;
 }
 
 /* Title, Subtitle, Nav */
-div.subtitle{
+div.nav{
 	width: 250px;
 	float: right;
 /*	background-color: pink;
