@@ -1,22 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Oswald|Pacifico');
 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
 div.content_wrap{
 	width: 900px;
 	margin: auto;
 	font-family: sans-serif;
 }
 
-/* Title */
-h1.landing{
+/* Title, Subtitle, Nav */
+div.subtitle{
+	width: 250px;
+	float: right;
+/*	background-color: pink;
+*/	text-align: right;
+}
+
+h1{
 	font-weight: 100;
 	font-size:	5em;
 	font-family: 'Pacifico', Helvetica, sans-serif;
 	color: #2b2b2b;
 	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
 	text-align:right;
+	margin-top: 50px;
 }
 
-h2.landing{
+h2{
 	font-family: 'Pacifico', cursive;
 	font-weight: 100;
 	font-size:	2em;
@@ -24,8 +39,39 @@ h2.landing{
 	color: #2b2b2b;
 	/* text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05); */
 	text-align:right;
-	
 }
+
+.nav ul{
+	list-style: none;
+	text-align: right;
+	margin-top: 2em;
+}
+
+.nav li {
+  font-family: 'Just Another Hand', sans-serif;
+  font-size: 2.5em;
+  height: 1.25em;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+
+.nav a.active {
+	color:white;
+}
+
+
+/* Content Area */
+div.content{
+	width: 650px;
+/*	background-color: gold;
+*/}
 
 
 /* LANDING PAGE*/
@@ -45,6 +91,10 @@ html#landing{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-webkit-background-size:cover;
+}
+
+html{
+	background-color: #a1cef4;
 }
 /* NAV BAR AND TITLE */
 
