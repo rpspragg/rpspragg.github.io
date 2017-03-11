@@ -74,7 +74,7 @@ div.content{
 }
 
 
-/* LANDING PAGE*/
+/* background*/
 html#landing{
 	background: url('../images/engage-background.JPG');
 	background-repeat:no-repeat;
@@ -91,6 +91,7 @@ html#landing{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-webkit-background-size:cover;
+	background-color: #a1cef4;
 }
 
 html{
