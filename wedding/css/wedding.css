@@ -7,6 +7,30 @@
   margin: 0;
 }
 
+/* background*/
+html#landing{
+	background: url('../images/engage-background.JPG');
+	background-repeat:no-repeat;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	overflow: auto;
+	background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover;
+	background-color: #a1cef4;
+}
+
+html{
+	background-color: #a1cef4;
+}
+
 div.content_wrap{
 	width: 900px;
 	margin: auto;
@@ -30,12 +54,10 @@ h1{
 }
 
 h2{
-	font-family: 'Pacifico', cursive;
 	font-weight: 100;
 	font-size:	2em;
 	font-family: 'Pacifico', Helvetica, sans-serif;
 	color: #2b2b2b;
-	/* text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05); */
 	text-align:right;
 }
 
@@ -73,27 +95,3 @@ div.content{
 	font-weight: 100;
 }
 
-
-/* background*/
-html#landing{
-	background: url('../images/engage-background.JPG');
-	background-repeat:no-repeat;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	max-width: 100%;
-	max-height: 100%;
-	margin: auto;
-	overflow: auto;
-	background-size: cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-webkit-background-size:cover;
-	background-color: #a1cef4;
-}
-
-html{
-	background-color: #a1cef4;
-}
