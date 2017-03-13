@@ -102,3 +102,6 @@ div.content{
 	color: #2b2b2b;
 }
 
+.content p {
+	margin-bottom: 2em;
+}
