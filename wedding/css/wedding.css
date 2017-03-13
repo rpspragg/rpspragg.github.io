@@ -32,8 +32,11 @@ html{
 }
 
 div.content_wrap{
-	width: 900px;
-	margin: auto;
+	/*width: 900px;
+	margin: auto;*/
+	width: 1200px;
+	margin-left: 10%;
+	margin-right: 20%;
 }
 
 /* Title, Subtitle, Nav */
@@ -89,9 +92,13 @@ h2{
 
 /* Content Area */
 div.content{
-	width: 650px;
+	width: 950px;
 	float: left;
-	font-family: 'Oswald',sans-serif;
-	font-weight: 100;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	text-align: justify;
+	font-size: 1.5em;
+	line-height: 2em;
+	color: #2b2b2b;
 }
 
