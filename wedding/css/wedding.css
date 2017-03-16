@@ -41,9 +41,10 @@ div.content_wrap{
 
 /* Title, Subtitle, Nav */
 div.nav{
-	width: 250px;
+	width: 20%;
 	float: right;
 	text-align: right;
+	padding-right: 2%;
 }
 
 h1{
@@ -92,7 +93,7 @@ h2{
 
 /* Content Area */
 div.content{
-	width: 950px;
+	width: 80%;
 	float: left;
 	font-family: 'Oswald', sans-serif;
 	font-weight: normal;
