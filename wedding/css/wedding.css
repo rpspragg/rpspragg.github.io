@@ -34,7 +34,7 @@ html{
 div.content_wrap{
 	/*max-width: 1200px;*/
 	max-width: 1200px;
-	margin-left: 10%;
+	margin-left: 15%;
 }
 
 /* Title, Subtitle, Nav */
@@ -43,6 +43,7 @@ div.nav{
 	float: right;
 	text-align: right;
 	padding-right: 2%;
+	margin-top: 20px;
 }
 
 h1{
@@ -75,7 +76,7 @@ h2{
   font-weight: 100;
   font-size: 3em;
   height: 200%;
-  margin-bottom: 10%;
+  /*margin-bottom: 10%;*/
  }
 
 .nav a{
@@ -102,6 +103,7 @@ div.content{
 	font-size: 1.5em;
 	line-height: 2em;
 	color: #2b2b2b;
+	margin-top: 20px;
 }
 
 .content p {
