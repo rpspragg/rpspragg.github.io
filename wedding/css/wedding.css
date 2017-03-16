@@ -34,7 +34,7 @@ html{
 div.content_wrap{
 	/*width: 900px;
 	margin: auto;*/
-	width: 1200px;
+	max-width: 1200px;
 	margin-left: 10%;
 	margin-right: 20%;
 }
