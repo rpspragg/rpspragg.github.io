@@ -9,7 +9,16 @@
 
 /* background*/
 html#landing{
-	background: url('../images/engage-background.JPG');
+	background: url('../images/engage-background.JPG') no-repeat center center fixed;
+	background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover;
+	background-color: #a1cef4;
+}
+/* 
+html#landing{
+	background: url('../images/engage-background-1.JPG');
 	background-repeat:no-repeat;
 	position: absolute;
 	top: 0;
@@ -26,13 +35,14 @@ html#landing{
 	-webkit-background-size:cover;
 	background-color: #a1cef4;
 }
+ */
+
 
 html{
 	background-color: #a1cef4;
 }
 
 div.content_wrap{
-	/*max-width: 1200px;*/
 	max-width: 1200px;
 	margin-left: 15%;
 }
@@ -91,7 +101,6 @@ h2{
 .nav a.active {
 	color:white;
 }
-
 
 /* Content Area */
 div.content{
