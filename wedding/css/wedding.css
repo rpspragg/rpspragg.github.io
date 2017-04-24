@@ -55,6 +55,9 @@ h2{
 	padding-right: 2%;
 }
 
+h3{
+	clear: both;
+}
 .nav ul{
 	list-style: none;
 	text-align: right;
@@ -113,4 +116,20 @@ img.content-left{
 	width: 50%;
 	margin-top: 1.2em;
 	margin-right: 1em;
+}
+
+img.content-left-tall{
+	float: left;
+	border-radius: 25px;
+	width: 30%;
+	margin-top: 1.2em;
+	margin-right: 1em;
+}
+
+img.content-right-tall{
+	float: right;
+	border-radius: 25px;
+	width: 30%;
+	margin-top: 1.2em;
+	margin-left: 1em;
 }
