@@ -98,9 +98,19 @@ div.content{
 	margin-bottom: 2em;
 }
 
-img.content{
+img.content-right{
+	float: right;
 	border-radius: 25px;
-	width: 30%;
-	margin: 1em;
+	width: 50%;
+	margin-top: 1.2em;
+	margin-left: 1em;
 }
 
+
+img.content-left{
+	float: left;
+	border-radius: 25px;
+	width: 50%;
+	margin-top: 1.2em;
+	margin-right: 1em;
+}
