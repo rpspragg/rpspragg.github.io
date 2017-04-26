@@ -133,3 +133,9 @@ img.content-right-tall{
 	margin-top: 1.2em;
 	margin-left: 1em;
 }
+
+img.content-center{
+	clear: both;
+	border-radius: 25px;
+	width: 100%;
+}
